@@ -39,6 +39,9 @@ group :development, :test do
   gem 'capistrano-bundler'
 end
 
+gem 'dotenv'
+gem 'dotenv-deployment', require: 'dotenv/deployment'
+
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
